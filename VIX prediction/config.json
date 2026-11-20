@@ -1,0 +1,21 @@
+{
+  "data_path": "data/raw/MAN_data.csv",
+  "symbol": ".SPX",
+  "start": "2000-01-01",
+  "end": "2019-12-31",
+  "validation_years": [2014, 2015, 2016],
+  "test_years": [2017, 2018, 2019],
+  "seeds": [11, 22, 33, 44, 55],
+  "threads": 1,
+  "xgb_max_rounds": 2000,
+  "xgb_patience": 50,
+  "nn_max_epochs": 200,
+  "nn_patience": 20,
+  "nn_learning_rate": 0.0001,
+  "batch_size": 64,
+  "floor": 1e-8,
+  "bootstrap_samples": 5000,
+  "block_lengths": [20, 10, 40],
+  "bootstrap_seed": 451,
+  "output": "results"
+}

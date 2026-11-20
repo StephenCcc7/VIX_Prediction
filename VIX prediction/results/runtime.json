@@ -1,0 +1,59 @@
+{
+  "total_seconds": 409.7436447999971,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "logical_cpus": 20,
+  "python": "3.12.14",
+  "torch_threads": 1,
+  "high_volatility_threshold": 0.0001130972242015,
+  "config": {
+    "data_path": "data/raw/MAN_data.csv",
+    "symbol": ".SPX",
+    "start": "2000-01-01",
+    "end": "2019-12-31",
+    "validation_years": [
+      2014,
+      2015,
+      2016
+    ],
+    "test_years": [
+      2017,
+      2018,
+      2019
+    ],
+    "seeds": [
+      11,
+      22,
+      33,
+      44,
+      55
+    ],
+    "threads": 1,
+    "xgb_max_rounds": 2000,
+    "xgb_patience": 50,
+    "nn_max_epochs": 200,
+    "nn_patience": 20,
+    "nn_learning_rate": 0.0001,
+    "batch_size": 64,
+    "floor": 1e-08,
+    "bootstrap_samples": 5000,
+    "block_lengths": [
+      20,
+      10,
+      40
+    ],
+    "bootstrap_seed": 451,
+    "output": "results"
+  },
+  "packages": {
+    "numpy": "2.5.5",
+    "pandas": "3.1.1",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "scikit-learn": "1.9.1",
+    "xgboost": "3.4.1",
+    "torch": "2.15.0+cpu",
+    "exchange-calendars": "4.13.3"
+  },
+  "fitting_seconds": 407.3968556999971
+}
