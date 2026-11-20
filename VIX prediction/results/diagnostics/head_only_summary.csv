@@ -1,5 +1,0 @@
-model,variant,seed,n,qlike
-HARNet20_seed11,calibrated,11,682,0.2247201256711115
-HARNet20_seed11,raw,11,682,0.2074372798357723
-head_only,calibrated,11,682,0.22744620869331408
-head_only,raw,11,682,0.21026598651387707
